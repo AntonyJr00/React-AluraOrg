@@ -18,7 +18,7 @@ const Footer = () => {
         </a>
       </div>
       <img className="footer-logo" src="/img/logo.png" alt="Logo" />
-      <strong>Desarrolado por alura Latam</strong>
+      <strong>Desarrolado por Antony Rodriguez</strong>
     </footer>
   );
 };
