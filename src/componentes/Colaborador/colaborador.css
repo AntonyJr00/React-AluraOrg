@@ -1,0 +1,69 @@
+.colaborador {
+  width: 280px;
+  margin-bottom: 1.5rem;
+}
+
+.encabezado {
+  min-height: 105px;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+}
+
+.encabezado img {
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: relative;
+  bottom: -50px;
+}
+
+.taskDelete {
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.7rem;
+  color: #f1f1f1;
+  box-shadow: 2px 2px 8px #c9e3e5cf inset;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border-radius: 50%;
+  right: 0.6rem;
+  top: 0.6rem;
+}
+
+.info {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+  border-radius: 0 0 10px 10px;
+  padding-top: 5.625rem;
+  padding-bottom: 2.5rem;
+  min-height: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.info-title {
+  color: #6278f7;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.375rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-puesto {
+  font-size: 1.1rem;
+  line-height: 1.375rem;
+  color: #212121;
+  padding: 0 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.info-heart {
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 0.5rem;
+  width: 100%;
+}

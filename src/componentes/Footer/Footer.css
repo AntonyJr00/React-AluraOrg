@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  display: flex;
+  padding: 5%;
+  align-items: center;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
+}
+
+.footer strong {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.redes :nth-child(even) > img {
+  width: 24px;
+  padding: 0 1rem;
+}
+
+.redes :nth-child(odd) > img {
+  width: 50px;
+}
+
+.footer-logo {
+  width: 100px;
+  filter: blur(0.5px);
+}

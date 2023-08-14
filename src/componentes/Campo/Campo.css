@@ -1,0 +1,29 @@
+.campo-input {
+  margin: 2rem 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.campo-input label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.campo-input input {
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  outline-color: #6278f7;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.campo-input input[type="color"] {
+  height: 40px;
+  padding: 5px 20px;
+}
